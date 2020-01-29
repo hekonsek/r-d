@@ -2,6 +2,8 @@
 
 ## Creating minimal cluster
 
+For development purposes it makes now sense to create large and expensive cluster. Let's start our MSK exploration with a CloudFormation template which creates the simplest and the smallest Apache Kafka cluster. 
+
 ```
 Resources:
   KafkaCluster:
@@ -16,3 +18,4 @@ Resources:
           - subnet-62623c3f
           - subnet-bf1449d9
 ```                                        
+
