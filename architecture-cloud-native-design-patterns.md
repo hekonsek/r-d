@@ -3,13 +3,21 @@
 ## 12 Factor applications
 
 I. Codebase
-One codebase tracked in revision control, many deploys
+- One codebase tracked in revision control, many deploys
+- One code repository per deployable
+- One application, multiple environments
+- Trunk based development, short-living branches
 
 II. Dependencies
-Explicitly declare and isolate dependencies
+- Explicitly declare and isolate dependencies
+- Bundle dependencies into deployables
+- Avoid system-level dependencies (shared libraries, CLI commands, etc)
 
 III. Config
-Store config in the environment
+- Store config in the environment
+- Config can vary between environments, code can't
+- Solution: environment variables or config server
+- Configuration set per environment, not environment-specific properties
 
 IV. Backing services
 Treat backing services as attached resources
