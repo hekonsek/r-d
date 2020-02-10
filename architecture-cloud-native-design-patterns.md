@@ -1,5 +1,9 @@
 # Cloud Native design patterns
 
+## Cloud native definition
+
+Architecture of applications to be easily deployed into cloud in a resilent and fault-tolerant manner.
+
 ## 12 Factor applications
 
 I. Codebase
