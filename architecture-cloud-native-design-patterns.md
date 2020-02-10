@@ -2,7 +2,29 @@
 
 ## Cloud native definition
 
-Architecture of applications to be easily deployed into cloud in a resilent and fault-tolerant manner.
+Architecture of applications to be easily deployed into cloud in a resilent and fault-tolerant manner. It's about how to create applications, not about where to run them.
+
+Requirements:
+- Zero downtime
+- Short delivery cycle
+- Multi-client (mobile, web, IoT, desktop, etc)
+- Data intensive
+
+General traits:
+- Modular
+- Redundant
+
+Consequences:
+- Distributed
+- Constantly changing
+
+Cloud native design embraces failure as normal, not exception.
+
+Three components:
+- apps
+- backing services
+  - stateful services (data or apps)
+  - stateless services (apps)
 
 ## 12 Factor applications
 
