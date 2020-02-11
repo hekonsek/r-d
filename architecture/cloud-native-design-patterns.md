@@ -2,7 +2,8 @@
 
 ## Cloud native definition
 
-Architecture of applications to be easily deployed into cloud in a resilent and fault-tolerant manner. It's about how to create applications, not about where to run them.
+An architecture of applications to be easily deployed into cloud in a resilient and fault-tolerant manner. Cloud native 
+is more about **how** to create applications, not about **where** to run them.
 
 Requirements:
 - Zero downtime
