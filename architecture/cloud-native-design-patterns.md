@@ -78,10 +78,19 @@ IX. Disposability
 - Application should be robust against sudden death
 
 X. Dev/prod parity
-Keep development, staging, and production as similar as possible
+- Keep development, staging, and production as similar as possible
+- Reduce time gap, personnel gap and tool gap
+- Keep dev and production as similar as possible
 
 XI. Logs
-Treat logs as event streams
+- Treat logs as event streams
+- Do not attempt to manage logs on application level
+- Log to stdout or simple file
 
 XII. Admin processes
-Run admin/management tasks as one-off processes
+- Run admin/management tasks as one-off processes
+- Version and release
+
+## Resources
+
+- [The twelve-factor app](https://12factor.net)
